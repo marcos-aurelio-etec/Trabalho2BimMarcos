@@ -9,7 +9,7 @@ export default function App() {
         if (page === 'sobre') {
             return(
                 <View style={styles.container}>
-                    <Text style={styles.title}>Página Sobre</Text>
+                    <Text style={styles.title}>voce esta aqui </Text>
                     <TouchableOpacity style={styles.button} onPress={() => setPage('home')}>
                         <Text style={styles.buttonText}>Clique aqui</Text>
                     </TouchableOpacity>

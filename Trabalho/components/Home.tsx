@@ -9,12 +9,16 @@ export default function App() {
         if(page === 'home') {
             return(
                 <View style={styles.container}>
-                    <Text style={styles.title1}>NavTrack</Text>
-                    <Text style={styles.title}>Navegue com confiança e rastreie sua</Text>
-                    <Text style={styles.title}>localização em tempo real!</Text>
+                    <Text style={styles.title1}>localisa-se</Text>
+                    <Text style={styles.title}>aqui na localisa-se voce se acha sem estar perdido </Text>
+                    <Text style={styles.title}>localiza-se aqui </Text>
+                    
                     <TouchableOpacity style={styles.button} onPress={() => setPage('sobre')}>
-                    <Text style={styles.buttonText}>Clique Aqui</Text>
+                    <Text style={styles.buttonText}>se ache</Text>
+                    
                     </TouchableOpacity>
+                    <br></br>
+                    
                 </View>
             )
         }else if(page === 'sobre') {
@@ -26,11 +30,13 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+
     container: {
       flex: 1,
       justifyContent: 'center',
       alignItems: 'center',
-      backgroundColor: '#fff',
+      backgroundColor: '00001A',
+      color: '00001A',
     },
     title1: {
         fontSize: 32,
